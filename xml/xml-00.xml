@@ -1,0 +1,15 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "">
+<direccion>
+    <nombreCompleto>
+        <nombre>saul</nombre>
+        <apellidos>ortiz z</apellidos> 
+    </nombreCompleto>
+    <correo>ortizsaul858@gmail.com</correo>
+    <telefono>2283175273</telefono>
+    <cumple>
+        <dia>1</dia>
+        <mes>1</mes>
+        <anio>2000</anio>
+    </cumple>
+<direccion>
