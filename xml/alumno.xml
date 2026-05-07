@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <alumno>
+        <nombre>Eren</nombre>
+        <nacimiento>0845-03-30</nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Mikasa</nombre>
+        <nacimiento>0845-02-10</nacimiento>
+    </alumno>
+</alumnos>

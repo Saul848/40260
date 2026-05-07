@@ -1,0 +1,31 @@
+button {
+    width:33.3%;
+    height: 30px;
+}
+
+button[id = "b0"] {
+    width: 100%;
+    color: red;
+}
+
+div {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+input {
+    height: 30px;
+    width: 100px;
+}
+
+button[id = "suma1", id = "resta1"] {
+    width: 100%;
+    color: red;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="alumnos">
+        <complexType>
+            <sequence>
+                <element name="alumno" minOccurs="2" maxOccurs="unbounded">   
+                    <complexType>
+                        <sequence>
+                            <element name="nombre" type="string"></element>
+                            <element name="nacimiento" type="date"></element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>    
+        </complexType>
+    </element>
+</schema>
