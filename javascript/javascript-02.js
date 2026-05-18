@@ -71,3 +71,6 @@ function calcular() {
 
     resultado.value = calculo;
 }
+
+//Array
+let parametros = []
