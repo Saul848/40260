@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mostrar información</h1>
+    <button onclick="cargar_info()">cargar informacion</button>
+    <table border="1" id="tabla">
+        <!--tr>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr -->
+    </table>
+
+    <script>
+        let datos= ["usuario", "password", "jhon", 123, "jane", 456]
+        let cadena = "<tr>"
+        let contador = 1
+        function cargar_info(){
+            let tabla= document.getElementById("tabla")
+            for(const key in datos){
+                const element = datos[key];
+                cadena += "<td>" + element + "</td>"
+                if(contador == 2){
+                    candena += "</tr><tr>"
+                    contador = 0
+                }
+                contador +=1
+            }
+            tabla.innerHTML = cadena
+        }
+    </script>
+</body>
+</html>>
